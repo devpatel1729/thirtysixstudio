@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'china';
+    src: url('./font.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    /* background-color: #fd2c2a; */
+    /* background-color: black; */
+    font-family: 'china';
+    /* overflow-x: hidden; */
+}
+
+canvas {
+    pointer-events: none;
+    overflow: hidden;
+}
